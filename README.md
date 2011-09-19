@@ -1,6 +1,6 @@
 # Rollsheets
 
-Rollsheets allow for quick download of rosters as PDF and FDF companion files.
+Rollsheets is a Moodle block that allows for quick downloading of PDF rollsheets.
 
 ## Features
 
@@ -25,7 +25,7 @@ File any bugs, improvements, or feature requiests in our [issue tracker][issues]
 
 ## License
 
-Quickmail adopts the same license that Moodle does.
+Rollsheets adopts the same license that Moodle does.
 
 [rollsheets_github]: https://github.com/lsuits/rollsheets
 [block_doc]: http://docs.moodle.org/20/en/Installing_contributed_modules_or_plugins#Block_installation
