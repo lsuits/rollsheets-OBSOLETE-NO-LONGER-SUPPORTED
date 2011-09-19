@@ -62,10 +62,16 @@ $header = $_s('create_rollsheets');
 $pluginname = $_s('pluginname');
 
 $PAGE->set_context(get_context_instance(CONTEXT_COURSE, $course->id));
-$PAGE->set_url('/blocks/rollsheets/create.php?id=' . $course->id);
+$PAGE->set_course($course);
+
+$PAGE->navbar->add($pluginname);
 $PAGE->navbar->add($header);
+
 $PAGE->set_title($pluginname . ': ' . $header);
-$PAGE->set_heading($SITE->shortname . ': ' . $pluginname);
+$PAGE->set_heading($pluginname . ': ' . $header);
+
+$PAGE->set_url('/blocks/rollsheets/create.php?id=' . $course->id);
+$PAGE->set_pagetype($pluginname);
 
 $form = new create_form();
 
