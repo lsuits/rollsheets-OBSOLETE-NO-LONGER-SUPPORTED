@@ -18,6 +18,7 @@ $_s = function($key) { return get_string($key, 'block_rollsheets'); };
  * $student_names is to be an array of student names, last, first middle
  */
 function create_rollsheet($course_name, $section_name, $student_names) {
+    global $CFG;
     $out  = "%FDF-1.2\r\n";
     $out .= "1 0 obj\r\n";
     $out .= "<</FDF\r\n";
@@ -37,7 +38,7 @@ function create_rollsheet($course_name, $section_name, $student_names) {
     }
 
     $out .= "]\r\n";
-    $out .= "/F(http://appl007.lsu.edu/lawSB/RollSheet.pdf)>>\r\n";
+    $out .= "/F(" . $CFG->wwwroot . "/blocks/rollsheets/RollSheet.pdf)>>\r\n";
     $out .= ">>\r\n";
     $out .= "endobj\r\n";
     $out .= "trailer\r\n";
