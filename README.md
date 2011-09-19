@@ -27,4 +27,7 @@ File any bugs, improvements, or feature requiests in our [issue tracker][issues]
 
 Quickmail adopts the same license that Moodle does.
 
+[rollsheets_github]: https://github.com/lsuits/rollsheets
+[block_doc]: http://docs.moodle.org/20/en/Installing_contributed_modules_or_plugins#Block_installation
+[issues]: https://github.com/lsuits/rollsheets/issues
 
