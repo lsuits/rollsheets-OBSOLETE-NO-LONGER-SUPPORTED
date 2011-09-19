@@ -38,8 +38,7 @@ function create_rollsheet($course_name, $section_name, $student_names) {
     }
 
     $out .= "]\r\n";
-    $out .= "/F(" . $CFG->wwwroot . "/blocks/rollsheets/";
-    $out .= "RollSheet.pdf)>>\r\n";
+    $out .= "/F(" . $CFG->wwwroot . "/blocks/rollsheets/RollSheet.pdf)>>\r\n";
     $out .= ">>\r\n";
     $out .= "endobj\r\n";
     $out .= "trailer\r\n";
