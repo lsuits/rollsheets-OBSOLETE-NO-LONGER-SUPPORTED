@@ -6,7 +6,6 @@ require_once(dirname(dirname(dirname(__FILE__))).'/config.php');
 require_once('create_form.php');
 require_once($CFG->libdir . '/moodlelib.php');
 require_once($CFG->libdir . '/grouplib.php');
-require_once($CFG->libdir . '/lsulib.php');
 
 require_login();
 
@@ -86,7 +85,7 @@ if ($form->is_cancelled()) {
                 print_error('wrong_context', 'block_rollsheets');
             }
 
-            $course_name = get_formatted_shortname($course->shortname);
+            $course_name = $course->shortname;
             $section_name = explode(' ', groups_get_group_name($matches[1]));
 
             // Get role and member information to filter out non-students
