@@ -1,11 +1,6 @@
 <?php
 
-/**
- * Language entries for the Rollsheets block
- *
- * @author Adam C. Zapletal
- * @package rollsheets
- **/
+// Written at Louisiana State University
 
 // Strings for block
 $string['pluginname'] = 'Rollsheets';

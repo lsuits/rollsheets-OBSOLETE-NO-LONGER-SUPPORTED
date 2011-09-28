@@ -1,6 +1,6 @@
 <?php
 
-// @author Adam Zapletal
+// Written at Louisiana State University
 
 require_once(dirname(dirname(dirname(__FILE__))).'/config.php');
 require_once($CFG->libdir . '/formslib.php');

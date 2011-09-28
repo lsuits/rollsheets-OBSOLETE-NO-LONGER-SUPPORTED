@@ -1,8 +1,6 @@
 <?php
 
-/**
- * @author Adam Zapletal
- */
+// Written at Louisiana State University
 
 class block_rollsheets extends block_list {
     function init() {
