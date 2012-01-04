@@ -2,4 +2,4 @@
 
 // Written at Louisiana State University
 
-$plugin->version = 201102181200;
+$plugin->version = 2012010409;
