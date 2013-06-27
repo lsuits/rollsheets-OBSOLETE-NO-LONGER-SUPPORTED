@@ -25,6 +25,7 @@ class create_form extends moodleform {
         $icon = $OUTPUT->pix_icon('f/pdf', 'pdf');
 
         $form->addElement('hidden', 'id', $courseid);
+        $form->setType('id',PARAM_INT);
 
         $form->addElement('header', 'sections', $_s('sections'));
 

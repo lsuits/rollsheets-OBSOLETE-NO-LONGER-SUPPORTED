@@ -108,10 +108,11 @@ if ($form->is_cancelled()) {
             }
 
             sort($student_names);
-
+            
             header("Content-type: application/vnd.fdf");
             header("Content-Disposition: attachment; filename=rollsheet.fdf");
             echo create_rollsheet($course_name, $section_name[2], $student_names);
+            
             die();
         }
     }
