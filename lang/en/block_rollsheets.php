@@ -14,3 +14,4 @@ $string['pluginname_help'] = "<p>Click the create button to be brought to a scre
 <p>You will be provided with one line per section of your course, and when
    you click the 'Create' button for that section, you will be given a pdf
    rollsheet containing the names of that section's students</p>";
+$string['rollsheets:addinstance'] = 'Add Rollsheets block';
